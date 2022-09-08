@@ -1,11 +1,12 @@
 #include <stdio.h>
-/**
- * Fuction prints with puts
- */
+
 int main(void)
 {
+	/* Intializing the string to be printed */
+
 	char Mystr[] = "\"Programming is like building a multilingual puzzle";
 
 	puts(Mystr);
-	return 0;
+	/* Return ater printing */
+	return (0);
 }
