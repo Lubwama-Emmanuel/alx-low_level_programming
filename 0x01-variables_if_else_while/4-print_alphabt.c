@@ -9,7 +9,7 @@ int main(void)
 	char ltr;
 
 	for (ltr = 'a'; ltr <= 'z'; ltr++){
-		if(ltr =! 'e'){
+		if(ltr != 'e' && ltr != 'q'){
 			putchar(ltr);
 		}
 	}
