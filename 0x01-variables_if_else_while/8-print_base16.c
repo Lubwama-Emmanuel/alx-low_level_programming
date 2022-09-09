@@ -3,7 +3,7 @@
  * main - c main fxn
  * num: number
  * ltrL letter
- * return: main returns zero
+ * Return: main returns zero
  */
 int main(void)
 {
