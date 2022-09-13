@@ -1,17 +1,15 @@
 #include <stdio.h>
+#include <string.h>
 #include "main.h"
-/**
- * main - main function
- *
- * Return: Returns zero
- */
+
 int main(void)
 {
 	char str[] = "_putchar";
-	int i;
+	int ch;
 
-	for (i = 0; i <= strlen(str); i++)
-		_putchar(str[i]);
+	for (ch = 0; ch < strlen(str); ++ch)
+		_putchar(str[ch]);
 	_putchar('\n');
+
 	return (0);
 }
