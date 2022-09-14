@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * _islower - function that checks for lowercase
- * c:short desc
+ * @c:short desc
  *
  * Return: returns 1 if true and 0 is false
  */
