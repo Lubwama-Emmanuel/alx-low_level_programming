@@ -2,10 +2,10 @@
 #include <string.h>
 #include "main.h"
 /**
- * main - main fxn 
- * str: character
+ *main - function 
+ *str: character
  *
- * Return: return zero
+ *Return: return zero
  */
 int main(void)
 {
