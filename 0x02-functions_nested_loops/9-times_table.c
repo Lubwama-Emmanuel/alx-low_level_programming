@@ -14,7 +14,7 @@ void times_table(void)
 		{
 			res = i * j;
 			_putchar(res);
-			_putchar("'");
+			_putchar(',');
 			_putchar(' ');
 			++j;
 		}
