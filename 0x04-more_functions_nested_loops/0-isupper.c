@@ -1,5 +1,5 @@
+#include "main.h"
 #include <ctype.h>
-#include "main.h":
 /**
  * _isupper - function that is a letter is capital
  * @c: letter to test
