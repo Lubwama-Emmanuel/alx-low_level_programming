@@ -6,19 +6,22 @@
  */
 void print_triangle(int size)
 {
-	char star = '*';
-	int i, j;
+	int hght, base;
 
-	for (i = 1; i < size; i++)
-	{
-		for (j = i; j < size; j++)
-		{
-			_putchar(' ');
-		}
-		for (j = 1; j <= i; j++)
-		{
-			_putchar(star);
-		}
+	if (size <= 0)
 		_putchar('\n');
+	else
+	{
+		for (hght = 1; hght <= size; ++hght)
+		{
+			for (base = 1; base <= size; ++base)
+			{
+				if ((hght + base) <= size)
+					_putchar(' ');
+				else
+					_putchar('#');
+			}
+			_putchar('\n');
+		}
 	}
 }
