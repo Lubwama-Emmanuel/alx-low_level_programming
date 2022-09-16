@@ -14,11 +14,11 @@ void print_square(int size)
 		j = 0;
 		while (j < size)
 		{
-			putchar(hash);
+			printf("%c", hash);
 			++j;
 		}
-		putchar(hash);
-		putchar('\n');
+		printf("%c", hash);
+		printf("\n");
 		++i;
 	}
 }
