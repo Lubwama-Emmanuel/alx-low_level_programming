@@ -12,12 +12,19 @@ char *_strncat(char *dest, char *src, int n)
 {
 	int i, j;
 
+	/*Find size of the array*/
 	j = strlen(dest);
-	for (i = 0; i < n; i++)
+
+	/**
+	 * scr doees not need to be null terminated
+	 * if it contains n or more characters
+	 */
+	for (i = 0; i < n && src[i] != '\0'; i++)
 	{
 		dest[j] = src[i];
 		j++;
 	}
+	/*null terminate dest*/
 	dest[j] = '\0';
 	return (dest);
 }
