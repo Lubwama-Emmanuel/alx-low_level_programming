@@ -3,7 +3,6 @@
 #include "main.h"
 /**
  *main - function
- *@str: character
  *
  *Return: return zero
  */
