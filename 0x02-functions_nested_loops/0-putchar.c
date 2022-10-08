@@ -2,8 +2,8 @@
 #include <string.h>
 #include "main.h"
 /**
- *main - function 
- *str: character
+ *main - function
+ *@str: character
  *
  *Return: return zero
  */
