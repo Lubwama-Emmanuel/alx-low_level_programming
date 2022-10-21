@@ -1,9 +1,9 @@
-#ifndef MAIN_H
-#define MAIN_h
+#ifndef _LISTS_
+#define _LISTS_
 
 #include <stdio.h>
+#include <string.h>
 #include <stdlib.h>
-
 
 typedef struct list_s
 {
@@ -13,4 +13,4 @@ typedef struct list_s
 } list_t;
 size_t print_list(const list_t *h);
 
-#endif /* MAIN_H */
+#endif
