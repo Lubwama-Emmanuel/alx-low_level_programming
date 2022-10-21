@@ -41,3 +41,12 @@ void jack_bauer(void)
 	}
 	return (0);
 }
+=======
+	int i=0, j, k;
+
+	while (i<10)
+	{
+		j=0;
+>>>>>>> e1a9121cfea2385057ddd5abd694074b61136a3d
+		
+
